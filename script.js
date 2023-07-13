@@ -15,17 +15,17 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     //se tiver em light mode, adicionar a imagem light
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/perfil-light.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos escuros, jaqueta preta, sem barba e fundo azul na direita e roxo na esquerda."
+      "Linhas diagonais, ponta inferior esquerda até a ponta superior direita, cores roxas e azuis escuras."
     )
   } else {
     //se não tiver em light mode, manter a imagem normal
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/Avatar-perfil.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos, camiseta preta, barba e fundo amarelo."
+      "Universo, tons roxos e muitos pontinhos claros (estrelas, planetas...). "
     )
   }
 }
